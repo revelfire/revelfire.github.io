@@ -6,7 +6,7 @@ title: Blackbox Testing Microservices with Kotlin and RestAssured
 Learn how to set up a "[suzerain](https://www.merriam-webster.com/dictionary/suzerain)" project to author 
 User Journeys for Blackbox Testing.
 
-If you just want to dig into the code, start here: https://github.com/revelfire/blackboxmicroservicetesting
+If you just want to dig into the code, start here: [https://github.com/revelfire/blackboxmicroservicetesting](https://github.com/revelfire/blackboxmicroservicetesting)
 
 > Specific instructions for running this code are in the readme.md of that repo and will not be repeated here.
 
