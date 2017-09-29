@@ -1,13 +1,18 @@
 ---
-layout: page
-title: Welcome To RevelFire
+layout: default
 ---
 
-# RevelFire LLC
+<div class="posts">
+  {% for post in site.posts %}
+    <article class="post">
 
-This website is our location for long-form tutorials and articles not appropriate on
-regular info/blogging sites.  
+      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-If you'd like to hit our regular website, please visit http://revelfire.com
+      <div class="entry">
+        {{ post.excerpt }}
+      </div>
 
-Otherwise, explore and enjoy!
+      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+    </article>
+  {% endfor %}
+</div>
