@@ -8,13 +8,14 @@ Welcome to RevelFire
 
 ### What's This?
 
-RevelFire is a premium software consultancy in Austin, TX. We specialize in all
+RevelFire is a premium software consultancy in Austin, TX. We pride ourselves in staying
+at the forefront of technology innovation, and specialize in all
 the latest and greatest, including:
 
-* Realtime Analytics (Apache Kafka/Streams, AWS Athena)
-* Machine Learning (Specializing in Data Engineering and Training)
-* Big Data (PrestoDB, AWS Stack, Apache Spark, Cassandra)
-* Microservice Architecture (Spring Boot, Vertx, NodeJs, AWS Lambda, SparkJava...etc)
+* "Realtime Analytics"
+* "Machine Learning" (Specializing in Data Engineering and Training)
+* "Big Data", Design & Tooling
+* "Microservice" Architecture
 
 Our services are primarily focused on helping you:
 
@@ -23,7 +24,7 @@ Our services are primarily focused on helping you:
 * Getting you from 0 to 80%
 * Training/collaborating with staff to enable you to move forward independently
 
-For more information check out our main website at http://revelfire.com
+For more information check out our [main website](http://revelfire.com) 
 
 ### Contact me
 
