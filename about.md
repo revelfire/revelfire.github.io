@@ -4,12 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Welcome to RevelFire
 
-### More Information
+### What's This?
 
-A place to include any other types of information that you'd like to include about yourself.
+RevelFire is a premium software consultancy in Austin, TX. We specialize in all
+the latest and greatest, including:
+
+* Machine Learning (Specializing in Data Engineering and Training)
+* Big Data (AWS Stack, Apache Spark, Apache Kafka)
+* Microservice Architecture
+
+Our services are primarily focused on helping you make the right choices for your
+organization, ecosystem, and vendor targets, and then getting you from 0 to 80%, 
+then training/collaborating with staff to enable you to move forward independently.
+
+For more information check out our main website at http://revelfire.com
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[info@revelfire.com](mailto:info@revelfire.com)
