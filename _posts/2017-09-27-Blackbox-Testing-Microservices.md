@@ -10,6 +10,8 @@ If you just want to dig into the code, start here: https://github.com/revelfire/
 
 > Specific instructions for running this code are in the readme.md of that repo and will not be repeated here.
 
+If you got here without reading [the companion article, click here](https://www.linkedin.com/pulse/blackbox-api-testing-kotlin-restful-microservices-chris-mathias/)
+
 ## Stack
 * Gradle
 * Kotlin
