@@ -1,4 +1,6 @@
 
+Jekyll Docs: https://jekyllrb.com/docs/frontmatter/
+
 Jekyll Pointer to local image
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
