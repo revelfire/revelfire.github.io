@@ -1,3 +1,4 @@
+<img src="../images/impossible-to-fail.png" />
 # Why It Is Impossible For Tesla To Fail
 
 Why do technologies languish? Why do they boom? What happens in between? 
