@@ -1,7 +1,8 @@
+<img src="../images/impossible-to-fail.png" />
 # When Your Abstraction is an Impediment
 On Microservices and Modernization
 
-## Not for you!
+## This May Not Be For You!
 Caveat: If you are writing SDK's, virtualization technology, large scale game engines - this content does NOT apply to you.
 
 ## Ride the Lightening
