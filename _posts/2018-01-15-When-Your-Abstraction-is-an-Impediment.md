@@ -1,6 +1,5 @@
 <img src="../images/square-peg.png" />
-# When Your Abstraction is an Impediment
-On Microservices and Modernization
+*On Microservices and Modernization*
 
 ## This May Not Be For You!
 Caveat: If you are writing SDK's, virtualization technology, large scale game engines - this content does NOT apply to you.
