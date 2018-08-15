@@ -1,5 +1,4 @@
 <img src="../images/api_design.png" />
-
 *Volume 1 - The Broad Strokes*
 
 So often we are at the ground floor of API design, discussing (arguing?) basic principles, usually around REST and "is it RESTful, is it right?". Some of the API world has moved beyond this, building a complete abstraction of RESTful principles and creating a whole new way of addressing remote entities - GraphQL being the notable loud-voice of late. 
