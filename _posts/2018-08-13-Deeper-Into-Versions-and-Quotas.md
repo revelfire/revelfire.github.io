@@ -1,7 +1,7 @@
 <img src="../images/api_versioning.jpg" />
 *Advanced API Design Considerations Volume 2, with a deeper dive on Versioning, Quotas, and Throttling.*
 
-It is likely that if you read [link: volume 1] of this in its entirety, you were very bored that day. Or, these topics are relevant and meaningful to you in your journey to API Maturity. Hopefully the latter.
+It is likely that if you read [volume 1](https://revelfire.github.io/Advanced-API-Design-Considerations/) of this in its entirety, you were very bored that day. Or, these topics are relevant and meaningful to you in your journey to API Maturity. Hopefully the latter.
 
 This time we are going to get into some details of how one might manage the specifics of API Versioning, Quotas/Rate Limiting, Throttling & Bursting. Sounds like elements of a good thriller film doesn't it? 
 
