@@ -1,5 +1,5 @@
 <img src="../images/api_versioning.jpg" />
-*Volume 2, with a deeper dive on Versioning, Quotas, and Throttling.*
+*Advanced API Design Considerations Volume 2, with a deeper dive on Versioning, Quotas, and Throttling.*
 
 It is likely that if you read [link: volume 1] of this in its entirety, you were very bored that day. Or, these topics are relevant and meaningful to you in your journey to API Maturity. Hopefully the latter.
 
