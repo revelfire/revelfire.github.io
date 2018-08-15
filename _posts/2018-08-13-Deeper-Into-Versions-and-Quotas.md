@@ -37,14 +37,14 @@ Of course if you have budget, Apigee is a nice full featured solution.  Contrast
 
 All of these API Gateway solutions also provide many other features that can be handy when implementing microservices. In particular, centralized authorization management, and SLA management are other related concerns that you can get out of the box with the same solution helping you with quotas & throttling - isn't that nice?
 
-Definitions
+**Definitions**
 
 Sometimes you'll see Rate Limiting and Throttling used interchangeably, other times you'll see Quotas and Rate Limiting used interchangeably.  So - to disambiguate for the purpose of this writing:
 
-Quotas = limiting clients by some identifier to a particular requests-per-second (rps)
-Throttling = limiting system requests to prevent server overload (or cap hardware costs)
-Rate Limiting = Quotas
-Bursting = Quotas + some forgiving threshold
+* Quotas = limiting clients by some identifier to a particular requests-per-second (rps)
+* Throttling = limiting system requests to prevent server overload (or cap hardware costs)
+* Rate Limiting = Quotas
+* Bursting = Quotas + some forgiving threshold
 
 
 Each of the ESB solutions mentioned above that provide a nice API Gateway function are managed similarly. The concepts here don't lend themselves to too much ambiguity so they tend to be approached in a common fashion. Or perhaps we all suffer from groupthink - either way, here's a few notes.
@@ -81,7 +81,7 @@ Done laughing/snickering? Good.
 
 Change is the constant of life, and it is no different with API's. There's a few levels at which we can handle this change. 
 
-Routing
+### Routing
 
 In the routing approach, inbound requestors are directed to discreet applications based on some inbound parameters. An important factor to keep in mind here is that with this definition for routing, we are specifically addressing an application deployment. Therefore if we say 1 version = 1 server, probably 2 versions = 2 servers and so on - so there is a direct correlation to infrastructure costs here.
 
@@ -102,23 +102,23 @@ The most opaque to me is the 'header-glommed' mechanism, but lately its the one 
 Of course make sure the routing tooling you have available is capable of routing based on headers and not just url pathing. Most are. But lets talk about switching, and then see if maybe a hybrid approach is in order.
 
 
-Switching
+### Switching
 
 I refer to switching here as a mechanism whereby you swap code paths based on some inbound parameters. These parameters are all the exact same options as we saw in Routing, but we are using them within a single deployed application to cause different behaviors that your API evinces based on the version represented.
 
 Whether this manifests as Aspects that marshall up a particular controller, or if-statements in a single controller, or a blend of these, in some way you are willfully spaghetiffying your code in order to accommodate an API version without increasing your deployment count.
 
-When to Version
+### When to Version
 
 You should consider your versioning requirements in the context of destructive vs. non-destructive API changes. Destructive changes are best handled by separated deployments in my opinion. If for some reason you find this objectionable, you might also consider versioning your endpoint, e.g. /user_v1 /user_v2, but that gets a bit ugly on the client side is my feeling. 
 
 Does it matter if 5 new properties were added? Will that affect your clients? How about 2 new endpoints? Probably not. When you start changing property names, model structures/relationships, removing properties - then you need to start versioning. I would not personally choose to version an API at all unless there were material destructive changes.
 
-	Public vs Private
+### Public vs Private
 
 Internal is easier than external. Try really hard to limit your public API change rate. 
 
-Recommendations
+### Recommendations
 
 1. Use a hybrid approach, both Routing and Switching.
 2. Route to major versions and host separate applications. Route via url pathing or dns. Use integers, e.g. /v1, /v2.
@@ -127,7 +127,7 @@ Recommendations
 5. Support the minimum number of historical versions, sunset often as you can.
 6. Minimize the support for older versions as much as possible. Bugfixes only. No new features. Help the clients make the decision to move forward. Sometimes inflexibility is good, sometimes the customer is actually wrong (...or lazy).
 
-Tradeoffs
+### Tradeoffs
 
 Ultimately you must ask where to best spend your capital. Do we add complexity at the developer side, via maximizing use of switching, or at the infrastructure side, by routing to multiple versions?
 
